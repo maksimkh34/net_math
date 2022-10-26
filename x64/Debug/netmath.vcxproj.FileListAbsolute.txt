@@ -1,0 +1,5 @@
+C:\Work\mathproject\netmath\x64\Debug\netmath.vcxproj.AssemblyReference.cache
+C:\Work\mathproject\netmath\x64\Debug\netmath.vcxproj.SuggestedBindingRedirects.cache
+C:\Work\mathproject\netmath\x64\Debug\netmath.exe
+C:\Work\mathproject\netmath\x64\Debug\netmath.maindiag.resources
+C:\Work\mathproject\netmath\x64\Debug\netmath.vcxproj.GenerateResource.cache

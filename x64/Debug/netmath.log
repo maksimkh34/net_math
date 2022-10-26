@@ -1,0 +1,4 @@
+﻿  maindiag.cpp
+C:\Work\mathproject\netmath\maindiag.cpp(6,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  maindiag.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  netmath.vcxproj -> C:\Work\mathproject\netmath\x64\Debug\netmath.exe
