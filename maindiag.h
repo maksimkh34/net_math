@@ -83,7 +83,7 @@ namespace netmath {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(282, 140);
+			this->ClientSize = System::Drawing::Size(282, 142);
 			this->Controls->Add(this->exit_b);
 			this->Controls->Add(this->a2_b);
 			this->Name = L"maindiag";
@@ -96,7 +96,8 @@ namespace netmath {
 		Application::Exit();
 	}
 	private: System::Void a2_b_Click(System::Object^ sender, System::EventArgs^ e) {
-
+		a2_form^ fqf = gcnew a2_form;
+		fqf->ShowDialog();
 	}
 	};
 }

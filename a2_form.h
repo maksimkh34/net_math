@@ -1,4 +1,6 @@
 #pragma once
+#include "checkx_form.h"
+#include "findx_form.h"
 
 namespace netmath {
 
@@ -63,6 +65,7 @@ namespace netmath {
 			this->find_x->TabIndex = 0;
 			this->find_x->Text = L"Найти корни";
 			this->find_x->UseVisualStyleBackColor = true;
+			this->find_x->Click += gcnew System::EventHandler(this, &a2_form::find_x_Click);
 			// 
 			// check_x
 			// 
@@ -72,6 +75,7 @@ namespace netmath {
 			this->check_x->TabIndex = 1;
 			this->check_x->Text = L"Проверить корни";
 			this->check_x->UseVisualStyleBackColor = true;
+			this->check_x->Click += gcnew System::EventHandler(this, &a2_form::check_x_Click);
 			// 
 			// a2_form
 			// 
@@ -86,5 +90,13 @@ namespace netmath {
 
 		}
 #pragma endregion
+	private: System::Void find_x_Click(System::Object^ sender, System::EventArgs^ e) {
+		findx_form^ form = gcnew findx_form;
+		form->ShowDialog();
+	}
+	private: System::Void check_x_Click(System::Object^ sender, System::EventArgs^ e) {
+		checkx_form^ form = gcnew checkx_form;
+		form->ShowDialog();
+	}
 	};
 }

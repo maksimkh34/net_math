@@ -3,3 +3,4 @@ C:\Work\mathproject\netmath\x64\Debug\netmath.vcxproj.SuggestedBindingRedirects.
 C:\Work\mathproject\netmath\x64\Debug\netmath.exe
 C:\Work\mathproject\netmath\x64\Debug\netmath.maindiag.resources
 C:\Work\mathproject\netmath\x64\Debug\netmath.vcxproj.GenerateResource.cache
+C:\Work\mathproject\netmath\x64\Debug\netmath.a2_form.resources

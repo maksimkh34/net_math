@@ -21,12 +21,24 @@
     <ClCompile Include="a2_form.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="findx_form.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="checkx_form.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="maindiag.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="a2_form.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="findx_form.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="checkx_form.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

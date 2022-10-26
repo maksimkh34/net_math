@@ -122,10 +122,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="a2_form.cpp" />
+    <ClCompile Include="checkx_form.cpp" />
+    <ClCompile Include="findx_form.cpp" />
     <ClCompile Include="maindiag.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a2_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="checkx_form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="findx_form.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="maindiag.h">
