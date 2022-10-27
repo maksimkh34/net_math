@@ -144,6 +144,9 @@
     <EmbeddedResource Include="a2_form.resx">
       <DependentUpon>a2_form.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="checkx_form.resx">
+      <DependentUpon>checkx_form.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="maindiag.resx">
       <DependentUpon>maindiag.h</DependentUpon>
     </EmbeddedResource>

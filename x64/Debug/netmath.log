@@ -1,4 +1,5 @@
 ﻿  a2_form.cpp
+  checkx_form.cpp
   maindiag.cpp
 C:\Work\mathproject\netmath\maindiag.cpp(6,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
   Создание кода...
